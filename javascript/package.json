@@ -1,0 +1,16 @@
+{
+  "name": "decryptor",
+  "version": "1.0.0",
+  "description": "A utility to XOR encrypt/decrypt files",
+  "main": "deCryptor.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon deCryptor.js input.txt cypherkey.txt"
+  },
+  "author": "Nikolaos Sakellarios",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
